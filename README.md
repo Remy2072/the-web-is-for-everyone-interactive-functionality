@@ -1,5 +1,5 @@
 # Funda favorieten
-Een squad page gemaakt met een APi
+Een gezamelijke favoriete pagina voor Funda
 
 
 ## Inhoudsopgave
