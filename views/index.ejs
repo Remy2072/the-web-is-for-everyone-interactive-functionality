@@ -1,0 +1,34 @@
+<%- include("./partials/head") %>
+<%- include("./partials/nav") %>
+
+<main>
+    <section>
+        <header>
+            <h1>Favoriete huizen</h1>
+                <select>
+                    <option selected disabled value="">Sorteren</option>
+                    <option value="">Plaats</option>
+                    <option value="">Vraagprijs</option>
+                    <option value="">Kamers</option>
+                    <option  value="">Oppervlakte</option>
+                </select>
+            </header>
+        <% houses.forEach(house => { %>
+        <article>
+                <box-icon name="message-square-x" size="md" color="#f7a100"></box-icon>
+            <figure>
+                <img src="https://fdnd-agency.directus.app/assets/<%= house.poster_image %>" alt="Foto van het huis">
+            </figure>
+            <div>
+        <h2><a href="/detail/<%= house.id %>"><%= house.street %> <%= house.house_nr %> <%= house.nr_addition %></a></h2>
+        <p><%= house.postal_code%> <%= house.city %></p>
+        <p>€ <%= house.price %> k.k.</p>
+        <p><%= house.m2 %> m² / <%= house.m2_garden %> m² <%= house.rooms %> kamers</p>
+        <p><%= house.agent %></p>
+    </div>
+        </article>
+        <% }) %>
+    </section>
+</main>
+<%- include("./partials/footer") %>
+<%- include("./partials/foot") %>

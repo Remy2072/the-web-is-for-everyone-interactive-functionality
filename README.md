@@ -1,34 +1,22 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Funda favorieten
+Een squad page gemaakt met een APi
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Inhoudsopgave
+- Inhoudsopgave
+- Screenshot
+- Demo
+- Wiki
+- Instructies
 
-  * [Beschrijving](#beschrijving)
-  * [Gebruik](#gebruik)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+## Screenshot
+<img width="1792" alt="Scherm­afbeelding 2024-03-06 om 20 53 20" src="https://github.com/Remy2072/server-side-rendering-server-side-website/assets/70781820/7ce4b904-7fa8-4773-8922-67edd6603cd3">
 
-## Beschrijving
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+## Demo
+[Link naar demo](https://funda-favorieten.cyclic.app/)
 
-## Gebruik
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+## Wiki
+[Link naar wiki](https://github.com/Remy2072/server-side-rendering-server-side-website/wiki)
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
-
-## Installatie
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
-
-
-## Bronnen
-
-## Licentie
-
-This project is licensed under the terms of the [MIT license](./LICENSE).
+## Instructies
+[Link naar instructies](/docs/INSTRUCTIONS.md)
